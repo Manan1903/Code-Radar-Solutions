@@ -7,7 +7,7 @@ int main() {
     scanf("%s %s", str1, str2);
 
     // Printing output in the required format
-    printf("You entered :\n%s and %s\n", str1, str2);
+    printf("You entered :%s and %s\n", str1, str2);
 
     return 0;
 }
