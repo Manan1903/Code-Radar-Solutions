@@ -12,9 +12,9 @@ int main() {
 
     // Checking if the first number is greater than the second
     if (num1 > num2) {
-        printf("The first number (%d) is greater than the second number (%d).\n", num1, num2);
+        printf("True");
     } else {
-        printf("The first number (%d) is not greater than the second number (%d).\n", num1, num2);
+        printf("False");
     }
 
     return 0;
