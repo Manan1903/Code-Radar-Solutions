@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    double num1, num2;
-    
-    scanf("%lf", &num1);
-    
+    int num1, num2;
 
-    scanf("%lf", &num2);
     
-    // Checking if num1 is equal to num2
-    if (num1&&num2) {
-        printf("True");
+    scanf("%d %d", &num1, &num2);
+
+    
+    if ((num1 > 0) & (num2 > 0)) {
+        printf("True\n");
     } else {
-        printf("False");
+        printf("False\n");
     }
-    
+
     return 0;
 }
