@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &num);
 
     // Check if the number is divisible by 2
-    if (num / 2 == num) {
+    if (num / 2*2 == num) {
         printf("Even\n");
     } else {
         printf("Odd\n");
