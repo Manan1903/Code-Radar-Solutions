@@ -12,7 +12,7 @@ int main() {
     } else if (sellingPrice < costPrice) {
         printf("Loss\n", costPrice - sellingPrice);
     } else {
-        printf("No profit No loss.\n");
+        printf("No Profit No Loss.\n");
     }
 
     return 0;
