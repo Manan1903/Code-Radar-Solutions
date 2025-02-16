@@ -8,9 +8,9 @@ int main() {
     scanf("%f", &SP);
 
     if (SP > CP) {
-        printf("Profit\n", SP-CP);
-    } else if (sellingPrice < costPrice) {
-        printf("Loss\n", CP-SP);
+        printf("Profit\n", SP - CP);
+    } else if (SP < CP) {
+        printf("Loss\n", CP - SP);
     } else {
         printf("No Profit No Loss\n");
     }
